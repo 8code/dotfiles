@@ -1,0 +1,1 @@
+/Users/CinraMac/dotfiles/.zprezto/runcoms/zlogout
