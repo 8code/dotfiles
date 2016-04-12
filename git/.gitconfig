@@ -1,0 +1,13 @@
+[user]
+	name = 8code
+	email = sena.rn68@gmail.com
+[credential]
+	helper = osxkeychain
+[credential "https://github.com/cinra/"]
+	username = 8code
+[core]
+	excludesfile = /Users/CinraMac/.gitignore
+[push]
+	default = current
+[color]
+	ui = auto

@@ -1,1 +1,0 @@
-/Users/CinraMac/dotfiles/.zprezto/runcoms/zlogin
