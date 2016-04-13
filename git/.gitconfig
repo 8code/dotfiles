@@ -6,7 +6,7 @@
 [credential "https://github.com/cinra/"]
 	username = 8code
 [core]
-	excludesfile = /Users/CinraMac/.gitignore
+	excludesfile = ~/.gitignore
 [push]
 	default = current
 [color]
