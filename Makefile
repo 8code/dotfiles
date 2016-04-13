@@ -11,7 +11,7 @@ shell:
 	#ln -fs $(DOTFILES)/zsh/zlogin ${HOME}/.zlogin
 	#ln -fs $(DOTFILES)/zsh/zlogout ${HOME}/.zlogout
 prezto:
-	ln -fs $(DOTFILES)/prezto ${HOME}/prezto
+	ln -fs $(DOTFILES)/prezto ${HOME}/.prezto
 	ln -fs $(DOTFILES)/prezto/runcoms/zlogin ${HOME}/.zlogin
 	ln -fs $(DOTFILES)/prezto/runcoms/zlogout ${HOME}/.zlogout
 	ln -fs $(DOTFILES)/prezto/runcoms/zpreztorc ${HOME}/.zpreztorc
@@ -26,4 +26,4 @@ git:
 	ln -fs $(DOTFILES)/git/.gitconfig ${HOME}/.gitconfig
 	ln -fs $(DOTFILES)/git/.gitignore ${HOME}/.gitignore
 modules:
-	ln -fs $(DOTFILES)/.modules/zsh/completion ${HOME}/completion
+	ln -fs $(DOTFILES)/.modules ${HOME}/.modules
