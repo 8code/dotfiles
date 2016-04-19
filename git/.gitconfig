@@ -11,3 +11,6 @@
 	default = current
 [color]
 	ui = auto
+[alias]
+	see = browse
+	pr = pull-request

@@ -1,0 +1,96 @@
+tap:
+- b4b4r07/brionac
+- homebrew/core
+- homebrew/dupes
+- josegonzalez/php
+- peco/peco
+brew:
+  install:
+  - name: ansible
+    args: ""
+  - name: autoconf
+    args: ""
+  - name: automake
+    args: ""
+  - name: brionac
+    args: ""
+  - name: cairo
+    args: ""
+  - name: cmake
+    args: ""
+  - name: curl-ca-bundle
+    args: ""
+  - name: fontconfig
+    args: ""
+  - name: freetype
+    args: ""
+  - name: gdbm
+    args: ""
+  - name: gettext
+    args: ""
+  - name: glib
+    args: ""
+  - name: graphicsmagick
+    args: ""
+  - name: hub
+    args: ""
+  - name: icu4c
+    args: ""
+  - name: jpeg
+    args: ""
+  - name: jpeg-turbo
+    args: ""
+  - name: libevent
+    args: ""
+  - name: libffi
+    args: ""
+  - name: libgpg-error
+    args: ""
+  - name: libksba
+    args: ""
+  - name: libpng
+    args: ""
+  - name: libtool
+    args: ""
+  - name: libyaml
+    args: ""
+  - name: makedepend
+    args: ""
+  - name: mysql
+    args: ""
+  - name: nasm
+    args: ""
+  - name: openssl
+    args: ""
+  - name: optipng
+    args: ""
+  - name: pcre
+    args: ""
+  - name: peco
+    args: ""
+  - name: pidof
+    args: ""
+  - name: pixman
+    args: ""
+  - name: pkg-config
+    args: ""
+  - name: rbenv
+    args: ""
+  - name: rbenv-gemset
+    args: ""
+  - name: readline
+    args: ""
+  - name: ruby-build
+    args: ""
+  - name: tmux
+    args: ""
+  - name: tree
+    args: ""
+  - name: wellington
+    args: ""
+  - name: xz
+    args: ""
+  - name: zsh
+    args: ""
+  - name: zsh-completions
+    args: ""
