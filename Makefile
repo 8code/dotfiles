@@ -25,5 +25,7 @@ ruby:
 git:
 	ln -fs $(DOTFILES)/git/.gitconfig ${HOME}/.gitconfig
 	ln -fs $(DOTFILES)/git/.gitignore ${HOME}/.gitignore
+vim:
+	ln -fs $(DOTFILES)/rc/.vimrc ${HOME}/.vimrc
 modules:
 	ln -fs $(DOTFILES)/.modules ${HOME}/.modules
