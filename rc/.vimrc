@@ -17,7 +17,13 @@ set backspace=indent,eol,start
 set ignorecase
 " [ smart case search ]
 set smartcase
+" [ overwrite to reload]
+set autoread
+" [mute beep]
+set visualbell t_vb=
+set noerrorbells 
 " }}}
+
 " ---- Screen {{{
 " [ Display line number ]
 set number
@@ -33,8 +39,9 @@ set laststatus=2
 set encoding=utf-8
 scriptencoding utf-8
 " }}}
+
 " ---- Color Scheme {{{
 syntax on
-colorscheme molokai
 set t_Co=256
+colorscheme molokai
 " }}}
