@@ -1,20 +1,18 @@
 " ---- Default {{{
 " [ tab width ]
-tabstop=2
+set tabstop=2
 " [ tab type ]
-expandtab
+set expandtab
 " [ vim auto tab width ]
-shiftwidth=2
-" [ return auto indent ]
-smartindent
+set shiftwidth=2
 " [ Octal2Decimal ]
-nrformats-=octal
+set nrformats-=octal
 " [ folow block select ]
-virtualedit=block
+set virtualedit=block
 " [ wraparound ]
-whichwrap=b,s,[,],<,>
+set whichwrap=b,s,[,],<,>
 " [ backspace expansion ]
-backspace=indent,eol,start
+set backspace=indent,eol,start
 " [ case insensitive ]
 set ignorecase
 " [ smart case search ]
@@ -36,5 +34,7 @@ set encoding=utf-8
 scriptencoding utf-8
 " }}}
 " ---- Color Scheme {{{
-
+syntax on
+colorscheme molokai
+set t_Co=256
 " }}}

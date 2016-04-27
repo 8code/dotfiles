@@ -1,6 +1,6 @@
 DOTFILES := $(shell pwd)
-all: shell prezto tmux ruby git modules
-.PHONY: shell prezto tmux ruby git modules
+all: shell prezto tmux ruby git vim modules
+.PHONY: shell prezto tmux ruby git vim modules
 shell:
 	#ln -fs $(DOTFILES)/bash/bashrc ${HOME}/.bashrc
 	#ln -fs $(DOTFILES)/bash/bashenv ${HOME}/.bashenv
@@ -26,6 +26,8 @@ git:
 	ln -fs $(DOTFILES)/git/.gitconfig ${HOME}/.gitconfig
 	ln -fs $(DOTFILES)/git/.gitignore ${HOME}/.gitignore
 vim:
+  mkdir ${HOME}/.vimrc/colors
 	ln -fs $(DOTFILES)/rc/.vimrc ${HOME}/.vimrc
+	cp ${DOTFILES}/molokai/colors/molokai.vim ${HOME}/.vim/colors/
 modules:
 	ln -fs $(DOTFILES)/.modules ${HOME}/.modules
